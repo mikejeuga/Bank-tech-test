@@ -37,13 +37,7 @@ class Account {
         this.negativeRecord(fund)
         this.balance -= fund
     }
-
-    summary = () => {
-        let ledger = this.ledger.reversed()
-        for(let i = 0; i < ledger.length ; i++){
-            let date = ledger[i].hasOwnProperty(key)
-        }
-    }    
+    
 }
 
 module.exports = Account;
