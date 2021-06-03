@@ -1,9 +1,15 @@
-sudo: false
-
 language: node_js
 
 node_js: 
-  - node
+  - "stable"
+
+
+before_install:
+  - npm i -g npm@version-number
+
+install: 
+  - npm i -g npm@version-number
 
 script:
+  - npm ci
   - npm test
