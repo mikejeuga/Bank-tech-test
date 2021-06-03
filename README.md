@@ -91,7 +91,7 @@ Generate a statement:
 ```report.printSummary(anAccount.ledger)```
 
 
-## Design: 
+## Design 
 
 Classes in Javascript allow to express OOP thinking a little more "naturally". 
 
