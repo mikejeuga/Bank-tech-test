@@ -4,9 +4,7 @@ const Report = require("./report");
 const Account = require("./account")
 
 global.console = {
-    log: jest.fn(),
-    info: jest.fn(),
-    error: jest.fn()
+    log: jest.fn()
   }
 
 test('the summary should have a formatted header that calls the console', () => {
