@@ -53,13 +53,15 @@ Then they/she/he would see:
 
 ```
          Date            || Debit || Credit || Balance
-Wed Jun 02 2021 18:00:14 ||  -70  ||        ||  480
-Wed Jun 02 2021 18:00:09 ||       ||    50  ||  550
-Wed Jun 02 2021 18:00:07 ||       ||    50  ||  500
-Wed Jun 02 2021 18:00:00 ||       ||        ||  450
+Wed Jun 02 2021 18:00:14 ||  -70.00  ||        ||  480.00
+Wed Jun 02 2021 18:00:09 ||       ||    50.00  ||  550.00
+Wed Jun 02 2021 18:00:07 ||       ||    50.00  ||  500.00
+Wed Jun 02 2021 18:00:00 ||       ||        ||  450.00
 ```
 
 ## Running the program
+![alt text](https://travis-ci.com/mikejeuga/Bank-tech-test.svg?branch=main)
+
 
 The language of choice for this project is Javascript, below is a step-by-step walkthough.
 
@@ -90,6 +92,9 @@ Generate a statement:
 
 ```report.printSummary(anAccount.ledger)```
 
+finally to run test: 
+
+```npm test```
 
 ## Design 
 
