@@ -1,4 +1,4 @@
-module.exports = class Account {
+class Account {
     constructor(balance) {
         this.balance = balance
         this.createDate = new Date()
@@ -47,3 +47,6 @@ module.exports = class Account {
       }
     
 }
+
+
+module.exports = Account;

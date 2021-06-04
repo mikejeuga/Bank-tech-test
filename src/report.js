@@ -9,6 +9,7 @@ class Report {
 
 
     printSummary = (ledger, tx) => {
+        this.header()
         let date; let credit = " "; let debit = " "; let eodBalance = tx
         for (let i = ledger.length-1; i > 0; i--) {
                 date = Object.keys(ledger[i]).join().slice(0,24)
